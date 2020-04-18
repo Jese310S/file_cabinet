@@ -28,6 +28,13 @@ gem 'jbuilder', '~> 2.7'
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.4.2', require: false
 
+#Flexible authentication solution for Rails with Warden
+gem 'devise', '~> 4.7', '>= 4.7.1'
+#Forms made easy!
+gem 'simple_form', '~> 5.0', '>= 5.0.2'
+#is a layer on top of HTML or XML that's designed to express the structure of documents in a non-repetitive, elegant, and easy way 
+gem 'haml', '~> 5.1', '>= 5.1.2'
+
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
